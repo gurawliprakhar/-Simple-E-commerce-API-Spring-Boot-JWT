@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-commerce API Test UI</title>
+</head>
+<body>
+  <h2>Register</h2>
+  <input type="text" id="regName" placeholder="Name">
+  <input type="text" id="regEmail" placeholder="Email">
+  <input type="password" id="regPassword" placeholder="Password">
+  <button onclick="register()">Register</button>
+
+  <h2>Login</h2>
+  <input type="text" id="loginEmail" placeholder="Email">
+  <input type="password" id="loginPassword" placeholder="Password">
+  <button onclick="login()">Login</button>
+
+  <h2>Product List</h2>
+  <button onclick="getProducts()">Fetch Products</button>
+  <div id="products"></div>
+
+  <h2>Cart</h2>
+  <input type="number" id="cartProductId" placeholder="Product ID">
+  <input type="number" id="cartQuantity" placeholder="Quantity">
+  <button onclick="addToCart()">Add to Cart</button>
+  <button onclick="viewCart()">View Cart</button>
+  <div id="cartItems"></div>
+
+  <h2>Order</h2>
+  <button onclick="placeOrder()">Place Order</button>
+  <button onclick="viewOrders()">View Orders</button>
+  <div id="orders"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
