@@ -176,11 +176,6 @@ This is created on app startup if not present.
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
 
 ## 🙌 Support
 
@@ -188,7 +183,7 @@ If you found this helpful:
 
 * ⭐ Star the repo
 * 📨 Share it with friends
-* 💬 Drop a comment or suggestion in Issues tab
+* 💬 Drop a comment or suggestion in the Issues tab
 
 ---
 
